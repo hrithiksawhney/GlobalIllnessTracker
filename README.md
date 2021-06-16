@@ -1,5 +1,5 @@
 # Global Illness Tracker
-The free & open source infectious illness tracker.
+🦠‎‎‎‎‏‏‎ ‎‏‏‎ ‎‏‏‎The free & open source infectious illness tracker. 
 
 ## Contributing
 To contribute to this project you must contribute to one of the following:
