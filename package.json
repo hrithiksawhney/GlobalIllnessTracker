@@ -1,0 +1,17 @@
+{
+  "name": "global-illness-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "git add . && git commit -am \"Deploy to Heroku\" && git push heroku master",
+    "start": "node server/index.js",
+    "build": "cd client && npm install && npm run build"
+  },
+  "engines": {
+    "node": "14.17.1"
+  },
+  "keywords": [],
+  "author": "@sqwyer",
+  "license": "ISC"
+}
