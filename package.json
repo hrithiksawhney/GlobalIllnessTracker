@@ -6,12 +6,13 @@
   "scripts": {
     "deploy": "git add . && git commit -am \"Deploy to Heroku\" && git push heroku master",
     "start": "node server/index.js",
-    "build": "cd client && npm install && npm run build"
+    "build": "cd client && npm install && npm run build",
+    "push": "git push -u origin dev"
   },
   "engines": {
     "node": "14.17.1"
   },
   "keywords": [],
   "author": "@sqwyer",
-  "license": "ISC"
+  "license": "MIT"
 }
