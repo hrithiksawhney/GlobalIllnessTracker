@@ -1,5 +1,5 @@
 .Navbar {
-  padding: 1% 10% 1%;
+  padding: 2.5% 10% 2.5%;
   width:80vw;
   font-size:130%;
 }
@@ -19,4 +19,17 @@
   color:#000;
   text-decoration: none;
   font-weight: 700;
+}
+
+.Links .icon {
+  display: none;
+}
+
+@media only screen and (max-width: 700px) {
+  .Links a {
+    display: none
+  }
+  .Links .icon {
+    display: initial;
+  }
 }
