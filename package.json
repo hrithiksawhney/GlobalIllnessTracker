@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "deploy": "git add . && git commit -am \"Deploy to Heroku\" && git push heroku master",
-    "start": "cnode server/index.js",
+    "start": "node server/index.js",
     "build": "cd client && npm install && npm run build",
     "push": "git push -u origin dev"
   },
