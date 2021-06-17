@@ -29,6 +29,8 @@ cd ./GlobalIllnessTracker
 #### Step Two
 Now that you have the repository cloned, you can start editing files. Try your best to avoid bugs by testing your code in your browser, you can start the app by running the following commands in the terminal:
 **Please note:** you will need to have 2 terminals open in order to do this:
+
+
 *Terminal One*
 ```
 npm run start
