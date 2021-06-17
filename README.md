@@ -27,9 +27,15 @@ cd ./GlobalIllnessTracker
 ```
 
 #### Step Two
-Now that you have the repository cloned, you can start editing files. Try your best to avoid bugs by testing your code in your browser, you can start the app by running the following command in the terminal:
+Now that you have the repository cloned, you can start editing files. Try your best to avoid bugs by testing your code in your browser, you can start the app by running the following commands in the terminal:
+**Please note:** you will need to have 2 terminals open in order to do this:
+*Terminal One*
 ```
 npm run start
+```
+*Terminal Two*
+```
+cd ./client && npm run start
 ```
 
 **Please note:** if you are going to be contributing to the React frontend, try your best to stick to the [Figma Mockup](https://www.figma.com/file/50nxnhjFgQfqKsCaIIQqiN/Global-Illness-Tracker?node-id=0%3A1). If you think something in the mockup should be changed, or have an all new mockup that you think could work well, contact me via Discord or email (see [my profile](https://github.com/sqwyer) for contact information).

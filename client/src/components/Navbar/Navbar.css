@@ -1,0 +1,22 @@
+.Navbar {
+  padding: 1% 10% 1%;
+  width:80vw;
+  font-size:130%;
+}
+
+.Title {
+  color:#000;
+  text-decoration: none;
+  float: left;
+  font-weight: 800;
+}
+
+.Links {
+  float: right;
+}
+
+.Links a {
+  color:#000;
+  text-decoration: none;
+  font-weight: 700;
+}
