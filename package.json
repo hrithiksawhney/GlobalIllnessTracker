@@ -1,7 +1,7 @@
 {
   "name": "global-illness-tracker",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.1.0",
+  "description": "🦠‎‎‎‎‏‏‎ ‎‏‏‎ ‎‏‏‎The free & open source infectious illness tracker.",
   "main": "index.js",
   "scripts": {
     "deploy": "git add . && git commit -am \"Deploy to Heroku\" && git push heroku master",
