@@ -1,10 +1,12 @@
 import React from 'react';
 import './Home.css';
 
-function Home() {
+import Selection from '../Selection/Selection.js';
+
+function Home(props) {
+
   const [data, setData] = React.useState(null);
-  let illness;
-  if(!illness) illness = 'covid_19';
+  let illness = props.illness;
 
   React.useEffect(() => {
     fetch(`/api/${illness}`)
@@ -15,12 +17,14 @@ function Home() {
   if(data == null || data.error) {
     return (
       <div className="container">
+        <Selection data={data} setState={setData} />
         <p>Loading...</p>
       </div>
     )
   } else {
     return (
       <div className="container">
+        <Selection data={data} setState={setData} />
         <p>Cases: {!data.cases.overall ? "Loading..." : data.cases.overall}</p>
         <p>Recovered: {!data.recovered.overall ? "Loading..." : data.recovered.overall}</p>
         <p>Deaths: {!data.deaths.overall ? "Loading..." : data.deaths.overall}</p>

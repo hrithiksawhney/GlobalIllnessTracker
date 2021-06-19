@@ -5,7 +5,6 @@ import "./App.css";
 import Navbar from '../Navbar/Navbar.js';
 import Home from '../Home/Home.js';
 import About from '../About/About.js';
-import Selection from '../Selection/Selection.js';
 
 function App() {
   return (
@@ -18,8 +17,7 @@ function App() {
             <About />
           </Route>
           <Route path="/">
-            <Selection />
-            <Home />
+            <Home illness="covid_19" />
           </Route>
         </Switch>
       </BrowserRouter>

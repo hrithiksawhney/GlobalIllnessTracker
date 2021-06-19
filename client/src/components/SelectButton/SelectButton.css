@@ -16,19 +16,19 @@
   transition:0.2s background;
 }
 
-.selectButton:hover, .selectDropdown:hover {
-  background:#fafafa;
-}
-
 .isSelected {
-  background: #FDE7E7;
-  color:#FD0101;
-  border:1px solid #FDE7E7;
-  box-shadow: 0 4px 4px 0 rgba(168, 43, 43, 0.25);
+  background: #FDE7E7 !important;
+  color:#FD0101 !important;
+  border:1px solid #FDE7E7 !important;
+  box-shadow: 0 4px 4px 0 rgba(173, 111, 111, 0.25) !important;
 }
 
 .isSelected:hover {
-  background: #FDE7E7;
+  background: #FDE7E7 !important;
+}
+
+.selectButton:hover, .selectDropdown:hover {
+  background:#fafafa;
 }
 
 .selectDropdown_items {
