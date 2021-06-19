@@ -3,7 +3,8 @@ import './SelectButton.css';
 
 function SelectButton(props) {
 
-  let click = () => {
+  let click = disabled => {
+    if(disabled) return;
     let illness = props.illness;
 
     let covid = document.getElementsByClassName('illness_covid_19');
@@ -33,7 +34,7 @@ function SelectButton(props) {
       )
     } else if(props.illness === 'hiv_aids') {
       return (
-        <div className={`selectButton illness_${props.illness}`} onClick={() => click()}>
+        <div className={`selectButton illness_${props.illness}`} onClick={() => click(true)}>
           HIV/AIDS
         </div>
       )
@@ -48,7 +49,7 @@ function SelectButton(props) {
       )
     } else if(props.illness === 'flu' ) {
       return (
-        <div className={`selectButton illness_${props.illness}`} onClick={() => click()}>
+        <div className={`selectButton illness_${props.illness}`} onClick={() => click(true)}>
           Flu
         </div>
       )
