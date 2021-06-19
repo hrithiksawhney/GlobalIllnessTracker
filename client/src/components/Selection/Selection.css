@@ -1,0 +1,12 @@
+.selection {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .selection {
+    display: block;
+  }
+}
