@@ -42,3 +42,10 @@
 .selectLast {
   margin-right: 0;
 }
+
+@media screen and (max-width: 800px) {
+  .selectButton, .selectDropdown {
+    display: block;
+    margin: 2% 0 2%;
+  }
+}
