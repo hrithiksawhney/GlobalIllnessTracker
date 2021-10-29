@@ -1,6 +1,7 @@
 import React from 'react';
 import './Home.css';
 
+import WorldMap from '../WorldMap/WorldMap';
 import Selection from '../Selection/Selection.js';
 
 function Home(props) {
@@ -25,9 +26,11 @@ function Home(props) {
     return (
       <div className="container">
         <Selection data={data} setState={setData} />
+        <WorldMap />
         <p>Cases: {!data.cases.overall ? "Loading..." : data.cases.overall}</p>
         <p>Recovered: {!data.recovered.overall ? "Loading..." : data.recovered.overall}</p>
         <p>Deaths: {!data.deaths.overall ? "Loading..." : data.deaths.overall}</p>
+        <p>Last Updated: {!data.lastUpdated ? "Loading..." : data.lastUpdated}</p>
       </div>
     )
   }
